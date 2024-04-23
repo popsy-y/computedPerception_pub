@@ -1,0 +1,15 @@
+{
+    "cap2caEmo":
+        "Predict 5 specific sentiment words from sentence below, and output them by following instructions.  Instructions: 1. Predict 5 sentiment words. 2. Output comma separated list of sentiments.  Attention: - 'Positive', 'Negative' and 'Neutral' are prohibited. - Output must be single line sentence. - Output only names of predicted sentiment. - No explnations, ordered lists, and markups needed. - Use original words.  Format example: '(Sentiment 1),(Sentiment 2),(Sentiment 3),(Sentiment 4),(Sentiment 5)'  Sentence: ",
+    "caEmo2ImgPrmp":
+        "Create 1 sentence by following below instruction. Put final sentence in quote, and do not output other than final sentence.  1. Consider the specific object's name that related to emotions below.  2. Create 1 sentence that describing specific scene, and include object's name from step 1 in it.  Attention: - Write sentence without existence of humankinds.  Emotions: ",
+    "chord2chEmo":
+        "Predict 5 specific sentiment words from musical chord combination below, and output them by following instructions.  Instructions: 1. Predict 5 sentiment words. 2. Output comma separated list of sentiments.  Attention: - 'Positive', 'Negative' and 'Neutral' are prohibited. - Output must be single line sentence. - Output only names of predicted sentiment. - No explnations, ordered lists, and markups needed. - Use original words.  Format example: '(Sentiment 1),(Sentiment 2),(Sentiment 3),(Sentiment 4),(Sentiment 5)'  Musical chord combination: "
+    ,
+    "chEmo2ImgPrmp":
+        "Create 1 sentence by following below instruction. Put final sentence in quote, and do not output other than final sentence.  1. Consider the specific object's name that related to emotions below.  2. Create 1 sentence that describing specific scene, and include object's name from step 1 in it.  Attention: - Write sentence without existence of humankinds.  Emotions: "
+    ,
+    "imgEmo2chord":
+        "Create a musical chord pattern made of up to 4 units, by following below flow. You can choose note from A to G, then choose chord symbols from comma-separated list in bottom. No explanations needed. Rules: - Output must be the chord pattern: units of a note with a symbol. - Join the note and the symbol by character ''' to make a unit. - Output must be only units of note and symbol. - Separate each units by hyphens. - DO NOT output MARKUPS and EXPLANATIONS. - Do not use character '|', ' ', ',' and '.'. - Do not output keywords themselves. - Pattern must be made from less than 4 units. Chord symbols list: m7, dom7, minor, maj7, major. Example: A'major-D'minor-G'dom-C'maj7, G'm7-F'minor-G'minor-G'dom. Keywords: "
+    
+}
